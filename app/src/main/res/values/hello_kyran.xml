@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hellokyran">
+        Hello,<font color="#E9A6A6"> Kyran</font>!
+    </string>
+</resources>

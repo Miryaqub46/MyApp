@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">
+        Don’t have an account? Please <font color="#9C4A8B" > Sign Up </font>first.
+    </string>
+</resources>

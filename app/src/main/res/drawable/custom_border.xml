@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/gradient_stroke.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- First layer: The background of the shape -->
+
+
+    <!-- Second layer: The gradient stroke (border) -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Gradient for the stroke -->
+            <gradient
+                android:startColor="#FF5733"
+                android:endColor="#FFC300"
+                android:angle="45" />
+
+            <!-- Define the stroke width -->
+            <stroke
+                android:width="4dp"
+                android:color="@android:color/transparent" /> <!-- This prevents filling the inner part -->
+
+            <corners android:radius="100dp" />
+            <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Background color (or can be transparent) -->
+            <solid android:color="#0B0A0A" /> <!-- or use #00000000 for transparent -->
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+</layer-list>

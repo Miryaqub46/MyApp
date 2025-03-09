@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signuptext">
+        Already have an account? Go to the <font color="#9C4A8B">Login Page </font>.
+    </string>
+</resources>
